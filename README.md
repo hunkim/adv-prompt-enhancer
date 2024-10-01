@@ -5,9 +5,10 @@ Hey there, fellow developers! 👋 Are you ready to take your AI prompts to the 
 ## Listen to the sample
 
 <audio controls>
-  <source src="https://github.com/hunkim/adv-prompt-enhancer/raw/refs/heads/main/audio/podcast.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
+## Listen to the sample
+
+[Click here to listen](https://github.com/hunkim/adv-prompt-enhancer/raw/refs/heads/main/audio/podcast.wav)
+
 ## What's adv-prompt-enhancer?
 
 adv-prompt-enhancer is a powerful tool that automatically improves your AI prompts through an adversarial process. It's like having a tireless AI assistant that keeps refining your prompts and test cases until they're optimized for peak performance.
