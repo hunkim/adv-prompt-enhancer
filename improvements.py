@@ -154,6 +154,11 @@ def adversarial_improvement(
                 log_file.write(f"Error improving test cases: {e}\n")
 
             log_file.flush()
+        # Store the final results log file
+        log_file.write(f"Final Results:\n")
+        log_file.write(f"Instruction: {improved_instruction}\n")
+        log_file.write(f"Test Cases: {improved_test_cases}\n")
+
 
     print(f"Improvement process completed. Results saved in '{log_file_path}'")
     return improved_instruction, improved_test_cases
