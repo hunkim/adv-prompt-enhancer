@@ -4,9 +4,6 @@ Hey there, fellow developers! 👋 Are you ready to take your AI prompts to the 
 
 ## Listen to the sample
 
-<audio controls>
-## Listen to the sample
-
 [Click here to listen](https://github.com/hunkim/adv-prompt-enhancer/raw/refs/heads/main/audio/podcast.wav)
 
 ## What's adv-prompt-enhancer?
