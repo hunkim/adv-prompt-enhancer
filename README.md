@@ -8,6 +8,9 @@ adv-prompt-enhancer is a powerful tool that automatically improves your AI promp
 
 ## How Does It Work?
 
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/74cd2c09-112c-4ef7-8078-5e8868c9c87b">
+
+
 The magic of adv-prompt-enhancer lies in its clever adversarial approach:
 
 1. It starts with your initial prompt and a set of test cases.
@@ -196,4 +199,4 @@ We welcome contributions! If you have ideas for improvements or find any issues,
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
