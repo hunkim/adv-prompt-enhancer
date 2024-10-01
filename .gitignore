@@ -1,0 +1,7 @@
+.env
+results
+old
+.DS_Store
+.venv
+.web
+__pycache__/
