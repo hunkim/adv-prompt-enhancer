@@ -28,7 +28,7 @@ The result? A super-optimized prompt that's been battle-tested against increasin
 Here's a glimpse of what you can expect from adv-prompt-enhancer. 
 
 #### Initial prompt
-
+from [Anthropic's Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
 ```
 <document/> is the chunk we want to situate within the whole document. 
 <chunk/> is the chunk we are situating. 
@@ -40,24 +40,9 @@ Please give a short succinct context to situate this chunk within the overall do
 Given an initial prompt and test cases, it can generate an improved prompt like this:
 
 ```
-Revise the instruction to generate a concise, relevant context for this document chunk, adhering to the following: 
+<document/> is the full text, and <chunk/> is the target segment.
 
-For technical content, summarize the main idea, highlight a unique, crucial aspect, and provide a real-world application example using clear language; for narrative content, outline the main idea and a unique, impactful aspect; 
-
-for contrasting information, emphasize the main idea and a unique, implication-filled aspect, clearly comparing and contrasting; for complex concepts, simplify them, their main applications, and provide a specific example, breaking down complex ideas into understandable parts; 
-
-for implicit or inferred relationships, explicitly state the connection between the chunk and the document in one sentence, using clear language and specific examples. 
-
-Prioritize: a) Core context: distill essential information, its importance, and the key concept that directly links it to the larger document; 
-b) Implicit and suggested context: ensure the relationship is explicitly stated, easily understood, and directly addresses the content type's requirements, including handling implicit or inferred relationships. 
-
-Generate a context that: 
-1. Clearly adheres to these guidelines, handling specific content types with clarity and specificity; 
-2. Accurately represents and is relevant to the content type, emphasizing key concepts that situate the chunk within the larger document; 
-3. Is concise, limited to one sentence; 
-4. Clearly states the relationship between the chunk and the document, handling implicit or inferred relationships, edge cases, and domain-specific jargon when necessary, ensuring adaptability to various scenarios. 
-
-Specifically, when dealing with advanced technical content, ensure the context captures the essence of the complex concepts, their real-world application, and any implicit connections to the larger document, all while maintaining clarity, relevance, and conciseness. 
+Generate a concise (1-2 sentences) context that integrates this chunk into the document, focusing on key concepts for search retrieval. For technical content, include essential terms, applications, and connections, with specific examples. For narratives, summarize main events using chronological markers. For contrasting information, explain the discrepancy, its significance, and the chosen interpretation using clear, contrasting language. For ambiguous or nuanced content, provide a clear interpretation, its relevance, and implications using precise, unambiguous phrasing.
 ```
 
 This improved prompt is more detailed, specific, and adaptable to various content types and scenarios, leading to better performance on the test cases.

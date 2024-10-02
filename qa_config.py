@@ -101,6 +101,8 @@ Provide a revised version of the instruction that aims to improve performance on
 4. Source attribution: Reinforce the importance of citing the context or provided sources.
 5. Handling of key-value pairs and knowledge graphs: Provide clearer guidance on integrating this information into answers.
 
+Please keep the instruction concise and to the point and keep it about the same size as the original instruction.
+
 Output the improved instruction text only, without any additional explanation.
     """,
         ),

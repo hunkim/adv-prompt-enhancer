@@ -94,7 +94,7 @@ Provide a revised version of the instruction that aims to improve performance on
 3. Relevance: Emphasize the importance of identifying key concepts that situate the chunk within the larger document.
 4. Conciseness: Stress the need for brevity in the generated context.
 5. Adaptability: Include guidance on how to handle implicit or inferred relationships between the chunk and the document.
-
+Please keep the instruction concise and to the point and keep it about the same size as the original instruction.
 Output the improved instruction text only, without any additional explanation. Maintain the overall structure and purpose of the original instruction while incorporating these enhancements.
         """,
         ),

@@ -121,7 +121,7 @@ Current performance:
 Total score: {total_score}
 
 Provide a revised version of the instruction that aims to improve performance on the test cases. Focus on addressing specific weaknesses or adding guidelines that could lead to better results.
-
+Please keep the instruction concise and to the point about the same size as the original instruction.
 Output the improved instruction text only, without any additional explanation.
     """,
         ),
