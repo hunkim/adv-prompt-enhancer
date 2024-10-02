@@ -33,7 +33,9 @@ from [Anthropic's Contextual Retrieval](https://www.anthropic.com/news/contextua
 <document/> is the chunk we want to situate within the whole document. 
 <chunk/> is the chunk we are situating. 
 
-Please give a short succinct context to situate this chunk within the overall document for the purposes of improving search retrieval of the chunk. Answer only with the succinct context and nothing else. 
+Please give a short succinct context to situate this chunk within the 
+overall document for the purposes of improving search retrieval of the chunk. 
+Answer only with the succinct context and nothing else. 
 ```
 
 #### Improved prompt
@@ -42,7 +44,14 @@ Given an initial prompt and test cases, it can generate an improved prompt like 
 ```
 <document/> is the full text, and <chunk/> is the target segment.
 
-Generate a concise (1-2 sentences) context that integrates this chunk into the document, focusing on key concepts for search retrieval. For technical content, include essential terms, applications, and connections, with specific examples. For narratives, summarize main events using chronological markers. For contrasting information, explain the discrepancy, its significance, and the chosen interpretation using clear, contrasting language. For ambiguous or nuanced content, provide a clear interpretation, its relevance, and implications using precise, unambiguous phrasing.
+Generate a concise (1-2 sentences) context that integrates this chunk into the document,
+focusing on key concepts for search retrieval. For technical content, include essential
+terms, applications, and connections, with specific examples. For narratives, summarize
+main events using chronological markers. For contrasting information, explain the
+discrepancy, its significance, and the chosen interpretation using clear, contrasting
+language. 
+For ambiguous or nuanced content, provide a clear interpretation, its relevance, 
+and implications using precise, unambiguous phrasing.
 ```
 
 This improved prompt is more detailed, specific, and adaptable to various content types and scenarios, leading to better performance on the test cases.
